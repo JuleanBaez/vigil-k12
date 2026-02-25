@@ -2,12 +2,12 @@
 
 import { useState } from "react"
 import { Menu, Zap, LayoutDashboard } from "lucide-react"
-import { Button } from "@/components/ui/button"
-import { ComplianceSidebar } from "@/components/compliance-sidebar"
-import { AppDirectory } from "@/components/app-directory"
-import { AnalyticsDashboard } from "@/components/analytics-dashboard"
-import { AddAppModal } from "@/components/add-app-modal"
-import { TriageView } from "@/components/triage-view"
+import { Button } from "../components/ui/button"
+import { ComplianceSidebar } from "../components/compliance-sidebar"
+import { AppDirectory } from "../components/app-directory"
+import { AnalyticsDashboard } from "../components/analytics-dashboard"
+import { AddAppModal } from "../components/add-app-modal"
+import { TriageView } from "../components/triage-view"
 
 const mockVendors = [
   { id: "1", name: "Grammarly Business", riskScore: 82, department: "English", requestDate: "2h ago" },

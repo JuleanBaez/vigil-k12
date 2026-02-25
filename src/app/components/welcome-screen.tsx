@@ -17,17 +17,17 @@ import {
   TableHead,
   TableHeader,
   TableRow,
-} from "@/components/ui/table"
-import { Input } from "@/components/ui/input"
-import { Button } from "@/components/ui/button"
-import { Badge } from "@/components/ui/badge"
+} from "../components/ui/table"
+import { Input } from "../components/ui/input"
+import { Button } from "../components/ui/button"
+import { Badge } from "../components/ui/badge"
 import {
   DropdownMenu,
   DropdownMenuContent,
   DropdownMenuItem,
   DropdownMenuLabel,
   DropdownMenuTrigger,
-} from "@/components/ui/dropdown-menu"
+} from "../components/ui/dropdown-menu"
 
 const mockApps = [
   { id: "1", name: "Grammarly", status: "denied", audited: "2024-02-10", coppa: "fail", ferpa: "pass", state: "non-compliant" },

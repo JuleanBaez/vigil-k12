@@ -1,6 +1,6 @@
 
 import { auth } from "@/auth"
-import { ComplianceDashboard } from "@/components/compliance-dashboard"
+import { ComplianceDashboard } from "./components/compliance-dashboard"
 import { redirect } from "next/navigation"
 
 export default async function Page() {

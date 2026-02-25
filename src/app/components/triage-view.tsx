@@ -2,10 +2,10 @@
 
 import { useState } from "react"
 import { ExternalLink, Scale, FileText, AlertTriangle, Search, X } from "lucide-react"
-import { Button } from "@/components/ui/button"
-import { Badge } from "@/components/ui/badge"
-import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card"
-import { Input } from "@/components/ui/input"
+import { Button } from "../components/ui/button"
+import { Badge } from "../components/ui/badge"
+import { Card, CardContent, CardHeader, CardTitle } from "../components/ui/card"
+import { Input } from "../components/ui/input"
 
 export function TriageView({ activeVendor }: { activeVendor: any }) {
   const [searchTerm, setSearchTerm] = useState("")

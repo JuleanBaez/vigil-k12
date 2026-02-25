@@ -2,7 +2,7 @@
 
 import { LayoutDashboard, ShieldCheck, BarChart3, X, Activity } from "lucide-react"
 import { cn } from "@/lib/utils"
-import { Button } from "@/components/ui/button"
+import { Button } from "../components/ui/button"
 
 export function ComplianceSidebar({ 
   isOpen, onToggle, activeView, onViewChange, activeVendorId, onSelectVendor, vendors 
