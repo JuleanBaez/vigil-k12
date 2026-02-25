@@ -7,7 +7,7 @@ const _geist = Geist({ subsets: ["latin"] });
 const _geistMono = Geist_Mono({ subsets: ["latin"] });
 
 export const metadata: Metadata = {
-  title: 'Gemini',
+  title: 'Vigil K12',
   description: 'Chat with Gemini, your AI assistant',
   generator: 'v0.app',
   icons: {
