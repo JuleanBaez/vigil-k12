@@ -2,9 +2,9 @@
 
 import { useState, useEffect } from "react"
 import { Search, Filter, MoreHorizontal, ShieldCheck, ShieldAlert, Clock, Loader2 } from "lucide-react"
-import { Input } from "@/components/ui/input"
-import { Button } from "@/components/ui/button"
-import { Badge } from "@/components/ui/badge"
+import { Input } from "../components/ui/input"
+import { Button } from "../components/ui/button"
+import { Badge } from "../components/ui/badge"
 
 export function AppDirectory() {
   const [searchTerm, setSearchTerm] = useState("")
